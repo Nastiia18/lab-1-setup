@@ -1,6 +1,6 @@
 resource "vercel_project" "lab_deployment" {
   name      = "lab6-terraform"
-  framework = "nextjs"
+  framework = "vite"
   git_repository = {
     type = "github"
     repo = "Nastiia18/lab-1-setup"
